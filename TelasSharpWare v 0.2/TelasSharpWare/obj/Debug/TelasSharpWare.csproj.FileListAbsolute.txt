@@ -1,0 +1,39 @@
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\bin\Debug\TelasSharpWare.exe.config
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\bin\Debug\TelasSharpWare.exe
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\bin\Debug\TelasSharpWare.pdb
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoCliente.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.Properties.Resources.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.csproj.GenerateResource.Cache
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.exe
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.pdb
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoProduto.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoFornecedor.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoRelatorios.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoAdicionarCliente.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoPesquisarCliente.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoAdicionaProduto.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoPesquisarProduto.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoAdicionarFornecedor.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoPesquisarFornecedor.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoCompras.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoFazerPedido.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoPedidosEmAberto.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoFinalizarPedido.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoPesquisarPedido.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoRelatorioDeVendas.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoRelatorioDeDespesas.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.FormEntrada.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoCaixa.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoSistema.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoPesquisar.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.Login.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.BotaoLogin.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.SistemaControle.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.Botoes.BotaoAdministrativo.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.Botoes.BotaoAdicionarUsuario.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.Botoes.BotaoPesquisarUsuario.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare\TelasSharpWare\obj\Debug\TelasSharpWare.Caixa.resources
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare v 0.2\TelasSharpWare\bin\Debug\TelasSharpWare.exe.config
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare v 0.2\TelasSharpWare\obj\Debug\TelasSharpWare.exe
+C:\Users\RodrigoFelipe\Documents\PIM\TelasSharpWare v 0.2\TelasSharpWare\obj\Debug\TelasSharpWare.pdb

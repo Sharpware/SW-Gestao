@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B65AD76-E813-4BFA-97CD-6B420001BA73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TelasSharpWare</RootNamespace>
+    <AssemblyName>TelasSharpWare</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Botoes\BotaoAdicionaProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionaProduto.Designer.cs">
+      <DependentUpon>BotaoAdicionaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionarCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionarCliente.Designer.cs">
+      <DependentUpon>BotaoAdicionarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionarFornecedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionarFornecedor.Designer.cs">
+      <DependentUpon>BotaoAdicionarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionarUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdicionarUsuario.Designer.cs">
+      <DependentUpon>BotaoAdicionarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdministrativo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoAdministrativo.Designer.cs">
+      <DependentUpon>BotaoAdministrativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoCaixa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoCaixa.Designer.cs">
+      <DependentUpon>BotaoCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoCliente.Designer.cs">
+      <DependentUpon>BotaoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoCompras.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoCompras.Designer.cs">
+      <DependentUpon>BotaoCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoFazerPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoFazerPedido.Designer.cs">
+      <DependentUpon>BotaoFazerPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoFinalizarPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoFinalizarPedido.Designer.cs">
+      <DependentUpon>BotaoFinalizarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoFornecedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoFornecedor.Designer.cs">
+      <DependentUpon>BotaoFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoLogin.Designer.cs">
+      <DependentUpon>BotaoLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPedidosEmAberto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPedidosEmAberto.Designer.cs">
+      <DependentUpon>BotaoPedidosEmAberto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisar.Designer.cs">
+      <DependentUpon>BotaoPesquisar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarCliente.Designer.cs">
+      <DependentUpon>BotaoPesquisarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarFornecedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarFornecedor.Designer.cs">
+      <DependentUpon>BotaoPesquisarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarPedido.Designer.cs">
+      <DependentUpon>BotaoPesquisarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarProduto.Designer.cs">
+      <DependentUpon>BotaoPesquisarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoPesquisarUsuario.Designer.cs">
+      <DependentUpon>BotaoPesquisarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoProduto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoProduto.Designer.cs">
+      <DependentUpon>BotaoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoRelatorioDeDespesas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoRelatorioDeDespesas.Designer.cs">
+      <DependentUpon>BotaoRelatorioDeDespesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoRelatorioDeVendas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoRelatorioDeVendas.Designer.cs">
+      <DependentUpon>BotaoRelatorioDeVendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoRelatorios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoRelatorios.Designer.cs">
+      <DependentUpon>BotaoRelatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botoes\BotaoSistema.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Botoes\BotaoSistema.Designer.cs">
+      <DependentUpon>BotaoSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Caixa\Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caixa\Caixa.Designer.cs">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\SistemaControle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\SistemaControle.Designer.cs">
+      <DependentUpon>SistemaControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntradaLogin\FormEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntradaLogin\FormEntrada.Designer.cs">
+      <DependentUpon>FormEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntradaLogin\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntradaLogin\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Botoes\BotaoAdicionaProduto.resx">
+      <DependentUpon>BotaoAdicionaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoAdicionarCliente.resx">
+      <DependentUpon>BotaoAdicionarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoAdicionarFornecedor.resx">
+      <DependentUpon>BotaoAdicionarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoAdicionarUsuario.resx">
+      <DependentUpon>BotaoAdicionarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoAdministrativo.resx">
+      <DependentUpon>BotaoAdministrativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoCaixa.resx">
+      <DependentUpon>BotaoCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoCliente.resx">
+      <DependentUpon>BotaoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoCompras.resx">
+      <DependentUpon>BotaoCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoFazerPedido.resx">
+      <DependentUpon>BotaoFazerPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoFinalizarPedido.resx">
+      <DependentUpon>BotaoFinalizarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoFornecedor.resx">
+      <DependentUpon>BotaoFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoLogin.resx">
+      <DependentUpon>BotaoLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPedidosEmAberto.resx">
+      <DependentUpon>BotaoPedidosEmAberto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPesquisar.resx">
+      <DependentUpon>BotaoPesquisar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPesquisarCliente.resx">
+      <DependentUpon>BotaoPesquisarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPesquisarFornecedor.resx">
+      <DependentUpon>BotaoPesquisarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPesquisarPedido.resx">
+      <DependentUpon>BotaoPesquisarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPesquisarProduto.resx">
+      <DependentUpon>BotaoPesquisarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoPesquisarUsuario.resx">
+      <DependentUpon>BotaoPesquisarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoProduto.resx">
+      <DependentUpon>BotaoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoRelatorioDeDespesas.resx">
+      <DependentUpon>BotaoRelatorioDeDespesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoRelatorioDeVendas.resx">
+      <DependentUpon>BotaoRelatorioDeVendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoRelatorios.resx">
+      <DependentUpon>BotaoRelatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Botoes\BotaoSistema.resx">
+      <DependentUpon>BotaoSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caixa\Caixa.resx">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\SistemaControle.resx">
+      <DependentUpon>SistemaControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntradaLogin\FormEntrada.resx">
+      <DependentUpon>FormEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntradaLogin\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarCliente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarCliente2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarFornecedor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarFornecedor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarProduto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarProduto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarCliente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarCliente2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarFornecedor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarFornecedor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarProduto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarProduto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoSair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoSair2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeCliente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeCliente2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeFornecedor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeProdutos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeProdutos2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeRelatorios1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeRelatorios2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeFornecedor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoFazerPedido1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoFazerPedido2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoFinalizarPedido1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoFinalizarPedido2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPedidosEmAberto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPedidosEmAberto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarPedido1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarPedido2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeCompras1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeCompras2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoRelatorioDeDespesas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoRelatorioDeDespesas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoRelatorioDeVendas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoRelatorioDeVendas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoCaixa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoCaixa2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoSistema1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoSistema2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoLogin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoLogin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EntradaLogin\SistemaVendas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarUsuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoAdicionarUsuario2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarUsuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoPesquisarUsuario2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeAdministrativo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeAdministrativo2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
